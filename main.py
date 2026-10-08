@@ -1,1 +1,1 @@
-input("wsjdf;lsdjfl;j")
+input("i love java")
