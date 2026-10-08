@@ -1,1 +1,1 @@
-print("bank")
+input("wsjdf;lsdjfl;j")
