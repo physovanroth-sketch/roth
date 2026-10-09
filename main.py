@@ -51,7 +51,7 @@ def sowAll():
             lines = [line.strip() for line in content.splitlines() if line.strip()]
 
             if not lines:
-                print("\n[!] គ្មានទិន្នន័យគណនីនៅក្នុង System ទេ!\n")
+                print("\n not foun!\n")
                 return
 
             print("\n" + "=" * 40)
@@ -210,3 +210,32 @@ def transfer():
 
     except FileNotFoundError:
         print("\nNo account records file found yet.\n")
+while True:
+    print("---> Welcom to Bank <---")
+    print("[1]: cretAcc ")
+    print("[2]: Search Account")
+    print("[3]: SowAll")
+    print("[4]: Diposit")
+    print("[5]: withdawel")
+    print("[6]: transfer")
+    print("[0]: Back")
+    option=int(input("plaese input your Optin: "))
+    match option:
+        case 1:
+            cretAcc()
+        case 2:
+            saech1()
+        case 3:
+            sowAll()
+        case 4:
+            deposit()
+        case 5:
+            withdraw()
+        case 6:
+            transfer()
+
+        case 0:
+            break
+        case _:
+            print("Invalid Option")
+            print("Please Input Try again : ")
