@@ -38,3 +38,4 @@ def search_account():
        
     else:
         print("Account not found")
+def deposit_money():
